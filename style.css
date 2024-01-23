@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background: #eee;
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+.box {
+  padding: 20px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    background: plum;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
